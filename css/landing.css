@@ -1,0 +1,232 @@
+
+header{
+    width: 100%;
+    max-width: 1280px;
+    background-color: #f5ecec;
+    display: flex;
+}
+/*menu de navegacion*/
+nav{
+    height: 40px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    
+}
+
+li a:hover{
+    display: block;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: #ce8838;
+    
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+/* estilo para poner color al link cuando doy click*/
+li a:active{
+    color:#DB7A4E
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #FEFAF5;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.logotipo img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.logotipo{
+    height: 400px;
+    width: 400px;
+    align-items: flex-end;
+    
+}
+
+/*tratamiento de slogan*/
+
+.slogan{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 100px;
+}
+
+.slogan button{
+    display: flex;
+    width: 150px;
+    position: relative;
+}
+
+.slogan2{
+    display: flex;
+    flex-direction: column;
+
+}
+.slogan p{
+    max-width: 300px;
+    max-height: 100%;
+    
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.slogan h1{
+    height: 400px;
+    width: 500px;
+    font-size: xx-large;
+    font-family: Verdana;
+    color:#335576
+}
+
+.slogan .sloganparrafo{
+    height: 400px;
+    width: 500px;
+    font-family: Verdana;
+    color:#335576
+}
+
+.recomendation{
+    width: 100%;
+    max-width: 1268px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: white;
+   }
+
+.recomendation .servicios img{
+    margin-top: 10%;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.recomendation h3{
+    color: #335576;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1280px;
+    height: 200px;
+    background-color:#FEFAF5;
+    position: fixed;
+}
+
+.logo{
+    color: #335576;
+    font-size: 15px;
+    padding: 0 80px;
+    font-weight: bold;
+    letter-spacing: normal;
+    
+}
+
+button {
+    background-color: #DB7A4E;
+    font-family: Verdana;
+    color:white;
+    border: 0ch;
+    font-size: large;
+    border-radius: 10px;
+}
+
+/*el modulo principal del pie de pagina*/
+.contenedorpie{
+    width: 100%;
+    max-width: 1280px;
+    margin:auto;
+    padding: 20px;
+    display: flex;
+    gap: 0px;
+}
+
+
+/* tamaño asignado a cada seccion del pie de pagina*/
+.contact{
+    width: 20%;
+}
+
+
+.redessociales{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* dividir y poner en filas la parte del pie social*/
+.horarios{
+    width: 60%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    }
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}    
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardredestext{
+    gap: 10px;
+}
+
+.horarios{
+    gap: 80px;
+}
+
+.servicios h3{
+    color: white;
+    font-size: 30px;
+    margin-top: -60px;
+    margin-left: 150px;
+}
